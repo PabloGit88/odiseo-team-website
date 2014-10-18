@@ -1,14 +1,20 @@
-.loading{
-	
+.loading {
 	display:none !important; 
 }
 
-.bold{
+.bold {
  font-weight: bold;	
 	
 }
 
-.feature_image{
-	
+.feature_image {	
 	height: 140px;	
+}
+
+.sicon-google-plus i{
+	background-position:-396px -1px
+}
+
+.social-icons.hover-big .sicon-google-plus:hover {
+	background-color: #e04006;
 }
