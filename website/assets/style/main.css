@@ -2,3 +2,13 @@
 	
 	display:none !important; 
 }
+
+.bold{
+ font-weight: bold;	
+	
+}
+
+.feature_image{
+	
+	height: 140px;	
+}
