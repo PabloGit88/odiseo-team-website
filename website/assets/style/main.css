@@ -18,3 +18,10 @@
 .social-icons.hover-big .sicon-google-plus:hover {
 	background-color: #e04006;
 }
+
+#navigation .brand {
+	font-family:'ChunkFiveRegular','Open Sans',sans-serif;
+	color: #000000;
+	padding-right: 0;
+	text-decoration: none;
+}
