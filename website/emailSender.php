@@ -4,7 +4,7 @@ header("Content-Type: text/html;charset=utf-8");
 
 
 $email = $_POST['email'];
-$subject = $email['subject'];
+$name = $email['name'];
 $userEmail = $email['userEmail'];
 $body = $email['body'];
 var_dump($userEmail);
@@ -19,6 +19,6 @@ var_dump($userEmail);
 	$headers .= "Content-type: text/html; charset=utf-8\r\n";
 
 	//Dirección del remitente
-	$headers .= "From: web odiseo\n";
+	$headers .= "From: ". $name . " <".$userEmail.">\r\n";
 
 	mail($destinatario, $asunto, $cuerpo, $headers);
