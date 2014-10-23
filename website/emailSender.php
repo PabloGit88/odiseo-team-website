@@ -20,4 +20,4 @@ var_dump($userEmail);
 	//Dirección del remitente
 	$headers .= "From: ". $name . " <".$userEmail.">\r\n";
 
-	mail($destinatario, $asunto, $cuerpo, $headers);
+	mail($destinatario, "CONSULTA WEB", $cuerpo, $headers);
