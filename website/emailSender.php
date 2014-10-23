@@ -7,6 +7,7 @@ $email = $_POST['email'];
 $name = $email['name'];
 $userEmail = $email['userEmail'];
 $body = $email['body'];
+$asunto = "CONSULTA WEB";
 var_dump($userEmail);
 
 //Envio de email
@@ -20,4 +21,4 @@ var_dump($userEmail);
 	//Dirección del remitente
 	$headers .= "From: ". $name . " <".$userEmail.">\r\n";
 
-	mail($destinatario, "CONSULTA WEB", $cuerpo, $headers);
+	mail($destinatario, $asunto, $cuerpo, $headers);
