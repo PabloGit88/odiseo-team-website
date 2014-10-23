@@ -11,7 +11,6 @@ var_dump($userEmail);
 
 //Envio de email
 	$destinatario = "odiseo.team@gmail.com";
-	$asunto = $subject;
 	$cuerpo = $body;
 
 	//Envío en formato HTML
