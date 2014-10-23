@@ -528,10 +528,10 @@
                     <!-- Contact form -->
                     <div class="span6">
                         <h5>Escribanos unas líneas</h5>
-                        <form>
-                            <input type="text" class="span12" placeholder="Title" required="required">
-                            <input type="email" class="span12" placeholder="Email" required="required">
-                            <textarea rows="10" class="span12" required="required"></textarea>
+                        <form action="emailSender.php" method="post"   onsubmit="sendEmail(); return false;">
+                            <input type="text" name="email[subject]"  class="span12" placeholder="Title" required="required">
+                            <input type="email"  name="email[userEmail]" class="span12" placeholder="Email" required="required">
+                            <textarea rows="10"  name="email[body]" class="span12" required="required"></textarea>
                             <button type="submit" class="btn btn-primary">Enviar</button>
                         </form>
                     </div>
@@ -592,6 +592,22 @@
             <img src="assets/images/pages/contact/map_bck.jpg" alt="Odiseo Team">
         </div>
     </div>
+    
+    <div class="modal fade" id="myModal">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title">ODISEO TEAM</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p>Su email fue recibido con éxito, le contestaremos a la brevedad. Gracias!!!</p>
+	      </div>
+
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+    
     <!-- END PAGE | CONTACT -->
     
     
@@ -621,7 +637,7 @@
         
     
     <!-- INITIALIZE -->
-    <script src="assets/js/application/application.min.js" type="text/javascript"></script>
+    <script src="assets/js/application/source/application.js" type="text/javascript"></script>
     
     
     <!-- GOOGLE ANALYTICS -->

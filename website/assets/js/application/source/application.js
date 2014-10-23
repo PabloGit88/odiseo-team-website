@@ -220,3 +220,17 @@ $( document ).ajaxComplete(function() {
     });
 });
 
+
+function sendEmail(){
+	$.ajax({
+		  type: "POST",
+		  url: "emailSender.php",
+		  data:  $('form').serialize(),
+		  success: success,
+		});
+}
+
+function success( data ){
+	$('#myModal').modal('show');
+}
+
