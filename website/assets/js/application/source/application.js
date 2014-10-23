@@ -232,5 +232,7 @@ function sendEmail(){
 
 function success( data ){
 	$('#myModal').modal('show');
+	$('form')[0].reset();
+	
 }
 
