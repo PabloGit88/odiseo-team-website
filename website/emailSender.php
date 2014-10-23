@@ -19,6 +19,6 @@ var_dump($userEmail);
 	$headers .= "Content-type: text/html; charset=utf-8\r\n";
 
 	//Dirección del remitente
-	$headers .= "From: web odiseo <".$userEmail.">\r\n";
+	$headers .= "From: web odiseo\n";
 
 	mail($destinatario, $asunto, $cuerpo, $headers);
