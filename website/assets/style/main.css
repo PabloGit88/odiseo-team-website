@@ -78,6 +78,7 @@
 .arrow {
   position: fixed;
   bottom: 0;
+  display:none;
   left: 50%;
   margin-left: -20px;
   width: 40px;

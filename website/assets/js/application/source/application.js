@@ -34,6 +34,9 @@ $(document).ready(function(){
         fadeSpeed: 500
     });
     
+    
+    $("#arrowDown").hide().delay(1500).fadeIn(400);
+    
     /* Make embeded videos responsive. */
     $.fn.responsivevideos();
     
