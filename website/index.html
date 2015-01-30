@@ -25,6 +25,23 @@
     
     <!-- GOOGLE WEB FONTS -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,700,600,300,800' rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-59097755-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>
+
+
+
 </head>
 <body>
     <!-- NAVIGATION -->
@@ -48,9 +65,9 @@
                     
                     <!-- MAIN MENU -->
                     <ul id="main-menu" class="nav-collapse collapse">
-                        <li><a href="#page-welcome">Home</a></li>
-                        <li><a href="#page-work">Portfolio</a></li>
-                        <li><a href="#page-features">Tecnologías</a></li>
+                        <li><a href="#page-welcome" class="home">Home</a></li>
+                        <li><a href="#page-work" class="portfolio">Portfolio</a></li>
+                        <li><a href="#page-features" class="tecnologia">Tecnologías</a></li>
                        
                         <!-- li><a href="#page-blog">Blog</a></li-->
                         <li><a href="#page-contact">Contacto</a></li>
@@ -147,19 +164,19 @@
                             <a href="#" class="plugin-filter active" data-filter="all">All</a>
                         </li>
                         <li>
-                            <a href="#" class="plugin-filter" data-filter="twitter">Twitter</a>
+                            <a href="#" class="plugin-filter twitter" data-filter="twitter">Twitter</a>
                         </li>
                         <li>
-                            <a href="#" class="plugin-filter" data-filter="e-commerce">E-Commerce</a>
+                            <a href="#" class="plugin-filter eCommerce" data-filter="e-commerce">E-Commerce</a>
                         </li>
                         <li>
-                            <a href="#" class="plugin-filter" data-filter="facebookapp">Facebook App</a>
+                            <a href="#" class="plugin-filter facebookApp" data-filter="facebookapp">Facebook App</a>
                         </li>
                          <li>
-                            <a href="#" class="plugin-filter" data-filter="hybridapp">Hybrid Mobile App</a>
+                            <a href="#" class="plugin-filter hybridapp" data-filter="hybridapp">Hybrid Mobile App</a>
                         </li>
                         <li>
-                            <a href="#" class="plugin-filter" data-filter="web">Plataforma WEB</a>
+                            <a href="#" class="plugin-filter web" data-filter="web">Plataforma WEB</a>
                         </li>
                     </ul>
                 </nav>
@@ -176,7 +193,7 @@
                 <ul class="thumbnails plugin-filter-elements portfolio-items">
                     
                    <li class="span4 mix hybridapp">
-                        <a href="#pages/portfolio/branca.html" data-destination="portfolio-items" data-insert="before">
+                        <a href="#pages/portfolio/branca.html" class="brancaApp" data-destination="portfolio-items" data-insert="before">
                             <img src="assets/images/pages/portfolio/branca390x300.png" alt="Branca - Photos">
                             <div class="portfolio-overlay">
                                 <h4>Branca Fotos</h4>
@@ -696,17 +713,11 @@
     
     <!-- INITIALIZE -->
     <script src="assets/js/application/source/application.js" type="text/javascript"></script>
+     <script src="assets/js/main.js" type="text/javascript"></script>
     
     
     <!-- GOOGLE ANALYTICS -->
 	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	
-	  ga('create', 'UA-59097755-1', 'auto');
-	  ga('send', 'pageview');
 	
 	</script>
 </body>
