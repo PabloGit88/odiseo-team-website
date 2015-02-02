@@ -57,6 +57,18 @@ var analyticsHelper = (function(gaq, $){
 				}
 		);
 		
+		
+		$('.portfolio-items li a').each(
+				function(key, value){
+					var h4 = $(value).find('h4');
+					$(value).click(
+							function(element){
+								gaq.push(['_trackEvent', 'Portfolio', 'Click', h4.html()]);
+							}	
+					);
+				}
+		);
+		
 	};
 	
 	return {
