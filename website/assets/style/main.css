@@ -98,3 +98,11 @@
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
 }
+
+.creative_commons{
+	width: 79%;
+	bottom: 0px;
+	position: relative;
+	top: 35px;
+}
+
