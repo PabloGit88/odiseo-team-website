@@ -99,11 +99,38 @@
   animation: bounce 2s infinite;
 }
 
-.creative_commons{
-	width: 66%;
-	bottom: 0px;
+
+.fotter_data{
+	width: 87%;
 	position: relative;
 	top: 35px;
-	font-size: 0.7em;
+	left: 18%;
 }
+
+.fotter_data img{
+	width: 66px;
+	height: auto;
+	vertical-align: middle;
+	border: 0;
+}
+
+.creative_commons{
+	width: 71%;
+	bottom: 0px;
+	position: absolute;
+	font-size: 0.7em;
+	padding-left: 70px;
+	
+}
+
+
+@media all and (max-width: 538px){
+	.fotter_data {
+			width: 100%;
+			position: relative;
+			top: 35px;
+			left: 5%;
+		}
+}
+
 
