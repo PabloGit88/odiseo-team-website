@@ -52,7 +52,7 @@ $(document).ready(function(){
     /* Scroll spy and scroll filter */
     $('#main-menu').onePageNav({
         currentClass: "active",
-        changeHash: false,
+        changeHash: true,
         scrollOffset: navigationHeight - 10,
         scrollThreshold: 0.5,
         scrollSpeed: 750,

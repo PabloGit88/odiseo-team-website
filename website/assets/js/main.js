@@ -81,3 +81,15 @@ var analyticsHelper = (function(gaq, $){
 })(_gaq, jQuery);
 
 $( document ).ready( analyticsHelper.populate() );
+$(document).ready(function()
+{
+	$('#arrowDown').click(function(e)
+	{
+		e.preventDefault();
+		
+		$.scrollTo($('#page-work'), {
+		    easing: 'linear',
+		    duration: 1000
+		});
+	});
+});
