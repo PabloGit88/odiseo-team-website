@@ -139,6 +139,8 @@ $(document).ready(function(){
     $('.plugin-filter').click(function(){
         return false;
     });
+    
+    
     $('.plugin-filter-elements').mixitup({
         targetSelector: '.mix',
         filterSelector: '.plugin-filter',
@@ -165,7 +167,6 @@ $(document).ready(function(){
         animateGridList: true,
         onMixLoad: null,
         onMixStart: null,
-        onMixEnd: null
     });
     
     /**

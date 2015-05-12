@@ -80,6 +80,7 @@ var analyticsHelper = (function(gaq, $){
 	
 })(_gaq, jQuery);
 
+
 $( document ).ready( analyticsHelper.populate() );
 $(document).ready(function()
 {
