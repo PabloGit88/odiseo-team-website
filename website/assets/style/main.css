@@ -155,8 +155,8 @@
 div.slide_default_3 figure {
 position: relative; width: 300%;
 margin: 0; padding: 0; font-size: 0; left: 0; text-align: left;
-animation: 20s slidy3 infinite;
--webkit-animation: 20s slidy3 ease-in-out infinite;
+animation: 10s slidy3 infinite;
+-webkit-animation: 10s slidy3 ease-in-out infinite;
 }
 
 div.slide_default_3 figure img { width: 33.33%; height: auto; float: left; }
@@ -186,10 +186,48 @@ div.slide_default_3 {  overflow: hidden }
 div.slide_default_4 figure {
 position: relative; width: 400%;
 margin: 0; padding: 0; font-size: 0; left: 0; text-align: left;
-animation: 20s slidy4 infinite;
--webkit-animation: 20s slidy4 ease-in-out infinite;
+animation: 10s slidy4 infinite;
+-webkit-animation: 10s slidy4 ease-in-out infinite;
 }
 
 div.slide_default_4 figure img { width: 25%; height: auto; float: left; }
 div.slide_default_4 {  overflow: hidden }
+
+
+
+@keyframes slidy5 {
+0% { left: 0%; }
+	15% { left: 0%; }
+	20% { left: -100%; }
+	35% { left: -100%; }
+	40% { left: -200%; }
+	55% { left: -200%; }
+	60% { left: -300%; }
+	75% { left: -300%; }
+	80% { left: -400%; }
+	95% { left: -400%; }
+}
+
+ @-webkit-keyframes slidy5 {
+	0% { left: 0%; }
+	15% { left: 0%; }
+	20% { left: -100%; }
+	35% { left: -100%; }
+	40% { left: -200%; }
+	55% { left: -200%; }
+	60% { left: -300%; }
+	75% { left: -300%; }
+	80% { left: -400%; }
+	95% { left: -400%; }
+}
+
+div.slide_default_5 figure {
+position: relative; width: 500%;
+margin: 0; padding: 0; font-size: 0; left: 0; text-align: left;
+animation: 10s slidy5 infinite;
+-webkit-animation: 10s slidy5 ease-in-out infinite;
+}
+
+div.slide_default_5 figure img { width: 20%; height: auto; float: left; }
+div.slide_default_5 {  overflow: hidden }
 
